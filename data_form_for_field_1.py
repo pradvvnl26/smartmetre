@@ -9,7 +9,7 @@ st.title("Genus Daily Billing Status")
 # =========================================
 # READ CSV FROM RAR
 # =========================================
-rar_path = r"D:\billing_form\data_for_web_from.zip"
+rar_path = r"data_for_web_from.zip"
 
 with zipfile.ZipFile(zip_path) as rf:
 
