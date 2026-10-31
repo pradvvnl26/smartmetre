@@ -11,7 +11,7 @@ st.title("Genus Daily Billing Status")
 # =========================================
 rar_path = r"D:\billing_form\data_for_web_from.zip"
 
-with zipfile.RarFile(rar_path) as rf:
+with zipfile.ZipFile(zip_path) as rf:
 
     csv_file = rf.namelist()[0]
 
